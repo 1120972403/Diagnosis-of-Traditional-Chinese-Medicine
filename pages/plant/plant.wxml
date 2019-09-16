@@ -1,0 +1,56 @@
+<!--pages/plant/plant.wxml-->
+
+<view wx:if="{{ !testPicFile }}" class='page'>
+  <camera mode="normal"  device-position="back" flash="auto" binderror="error" class='camera'>
+    <view class='cameras'>
+    <cover-view class="kuang"></cover-view>
+  </view>
+  </camera>
+  <!-- <view>
+</view> -->
+</view>
+
+<view  wx:else class='page'>
+  <image src='{{ testPicFile }}' class='camera'></image>
+</view>
+<!-- 动画 -->
+<view class='animation' wx:if="{{ testPicFile }}" >
+  <view class='animation-list'>
+  </view>
+</view>
+
+
+<view class='tar'>
+
+  <view class='tar-text'>请将识别主体放于框内</view>
+
+  <view class=''>
+    <view class="weui-grid ">
+      <image class="weui-grid__icon " src="../../images/photo.png " bindtap='selectimg' />
+      <view class="weui-grid__label ">相册</view>
+    </view>
+    <view class="weui-grid ">
+      <image class="weui-grid__icon paishe " src="../../icon/takephoto.png " bindtap='takePhoto' />
+    </view>
+    <view class="weui-grid " bindtap='tuijian'>
+      <image class="weui-grid__icon " src="../../icon/dongtai01.png " bindtap='paishe' />
+      <view class="weui-grid__label ">推荐</view>
+    </view>
+
+  </view>
+</view>
+
+<!-- 
+<view class="cu-modal {{modalName=='Modal'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">Modal标题</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      Modal 内容。
+    </view>
+  </view>
+</view> -->

@@ -1,0 +1,24 @@
+<view class='content'>
+  <view class='exam-title'>{{index+1}}.{{questionList[index].description}}</view>
+  <radio-group bindchange="radioChange">
+    <label class='radio'>
+      <radio value='A' checked="{{multiIndex[0].checked?true:false}}"></radio>
+      <text class='wxam-item'>{{questionList[index].choiceA}}</text>
+    </label>
+    <label class='radio'>
+      <radio value='B' checked="{{multiIndex[1].checked?true:false}}"></radio>
+      <text class='wxam-item'>{{questionList[index].choiceB}}</text>
+    </label>
+    <label class='radio'>
+      <radio value='C' checked="{{multiIndex[2].checked?true:false}}"></radio>
+      <text class='wxam-item'>{{questionList[index].choiceC}}</text>
+    </label>
+    <!-- <label class='radio'>
+      <radio value='1'></radio>
+      <text class='wxam-item'>D.{{questionList[index].choiceD}}</text>
+    </label> -->
+  </radio-group>
+</view>
+
+<view class='fabu'>  <button class="cu-btn bg-green lg fixed" bindtap='next'>下一题</button>
+</view>

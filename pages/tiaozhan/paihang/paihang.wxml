@@ -1,0 +1,30 @@
+<!--pages/tiaozhan/paihang/paihang.wxml-->
+<view class='topback'>
+  <view class="weui-grid">
+    <view class="weui-grid__icon">10+</view>
+    <view class="weui-grid__label">我的排名</view>
+  </view>
+  <view class="weui-grid wx">
+    <image class="ko-tx" mode="widthFix" src="{{first.avatarUrl?first.avatarUrl:'../../../icon/default_head_circle.png'}}" />
+    <image class=" ko-img" mode="widthFix" src="../../../images/ko_img.png" />
+    <view class=" weui-grid__label ">{{first.nickName}}</view>
+  </view>
+  <view class="weui-grid ">
+    <view class="weui-grid__icon ">{{getKO.length}}</view>
+    <view class="weui-grid__label ">今日答题人数</view>
+  </view>
+</view>
+
+<!-- 答题排行/ -->
+<block wx:for='{{getKO}}' wx:key='*this'>
+  <view class="weui-cells weui-cells_after-title wx1">
+    <view class="weui-cell weui-cell_access ">
+      <view class='num'>{{index+1}}</view>
+      <view class="weui-cell__hd ">
+        <image src='/icon/default_head_circle.png' style="margin-right: 5px;vertical-align: middle;width:25px; height: 25px; "></image>
+      </view>
+      <view class="weui-cell__bd ">{{item.nickName}}</view>
+      <view class="weui-cell__ft ">得分{{item.score}}</view>
+    </view>
+  </view>
+</block>

@@ -1,0 +1,35 @@
+/* pages/index/fabu/fabu.wxss */
+
+page {
+  background-color: #f9f9f8;
+}
+
+.toubu {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+.text{
+  font-size: 15px;
+  color: #207F4B;
+}
+.toubu-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.toubu-select{
+  width: 40px;
+  background-color:  #207F4B;
+}
+
+/* button */
+.fabu{
+  text-align: center;
+  margin: 10px;
+  
+}
+.color{
+  
+  background-color:  #207F4B;
+}

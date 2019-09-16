@@ -1,0 +1,28 @@
+<view class='line'></view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">头像</view>
+    <view class="weui-cell__ft">
+      <image class="head_img" src="{{userInfo.avatarUrl?userInfo.avatarUrl:'/icon/default_head_circle.png'}}">
+      </image>
+    </view>
+  </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">昵称</view>
+    <view class="weui-cell__ft">{{userInfo.nickName}}</view>
+  </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">姓名</view>
+    <view class="weui-cell__ft">{{userInfo.nickName}}</view>
+  </view>
+</view>
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">签名</view>
+    <view class="weui-cell__ft">Everything is possible</view>
+  </view>
+</view>

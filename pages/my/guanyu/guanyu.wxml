@@ -1,0 +1,16 @@
+<view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+  <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+    <image class="logo" src="../../../icon/logo.png" mode='widthFix'/>
+  </view>
+  <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+    <view class="weui-media-box__title">中药识诊</view>
+    <view class="weui-media-box__desc">版本1.0</view>
+  </view>
+</view>
+<view class="xinxi">
+  针对目前市场上仅存在主打植物识别软件，暂无此类专业中草药识别程序，且缺少娱乐化功能的问题。中药识珍以中草药识别为主体打造首例中草药识别小程序。中草药识别——深度学习支持高精度识别，变身识别达人。养生知识推送——提供中医养生知识查询，带动全民养生。趣味答题——用户线上对战答题，变身知识达人。虚拟种植——虚拟种植中草药，体验农夫生活。
+</view>
+<view class='xinxi1'>团队成员：邓*、王*、黄*、范*、何* 
+</view>
+<view class='xinxi1'>联系我们：1141364205@qq.com
+</view>

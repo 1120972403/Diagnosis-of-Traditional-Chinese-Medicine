@@ -1,0 +1,4 @@
+<view class='img'>
+  <image src="../../images/dati.png" class='dati' mode='widthFix' bindtap='dati'></image>
+  <image src="../../images/ko.png" class='ko' mode='widthFix' bindtap='ko'></image>
+</view>

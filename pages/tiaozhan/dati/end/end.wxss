@@ -1,0 +1,23 @@
+swiper{
+  height: 1000rpx;
+}
+swiper-item{
+  margin: 40rpx 30rpx;
+  font-size: 32rpx;
+
+}
+.wxam-item{
+  margin-left: 20rpx;
+}
+.exam-title{
+  margin: 20rpx;
+}
+.radio{
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+    display: block;
+}
+.exam-result{
+  color: blue;
+  font-weight: bold;
+}

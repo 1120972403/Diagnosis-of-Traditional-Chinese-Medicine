@@ -1,0 +1,19 @@
+/* pages/tiaozhan/dati/finish/finish.wxss */
+
+.icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100rpx;
+}
+
+.content {
+  margin: 20rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.fabu {
+  text-align: center;
+  margin-top: 200rpx;
+}

@@ -1,0 +1,22 @@
+page {
+  height: 100%;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  min-height: 100%;
+  background-image:url("http://a3.qpic.cn/psb?/V13WVmAU0N4MNx/fwrmA6ldehMT.jfsFn7PeZrUIxpoI*mYNtYv2SSUKI8!/c/dLYAAAAAAAAA&ek=1&kp=1&pt=0&bo=7gI2Be4CNgURADc!&tl=3&vuin=3452852398&tm=1562421600&sce=60-2-2&rf=0-0");
+  background-size: 100% 100%;
+  
+}
+.dati{
+margin-top: 100px;
+width: 200px;
+position: relative;
+}
+.ko{
+position: relative;
+width: 200px;
+}
+
