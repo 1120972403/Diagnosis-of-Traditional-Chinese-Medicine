@@ -1,8 +1,0 @@
-<view class='icon'>
-<icon type="success" size="93"></icon>
-</view>
-<view class='content'>
-<text>答题成功，如果想查看考试结果，请点击下方按钮</text>
-</view>
-<view class='fabu'>  <button class="cu-btn bg-green lg" bindtap='btn'>查看错题</button>
-</view>
