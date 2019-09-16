@@ -1,0 +1,12 @@
+<view class='notice-title'>系统公告</view>
+<view class='notice-content'>
+  <text>中医药文化是中国传统优秀文化的重要组成部分，具有创新文化的潜质。中医学是中国传统科学中沿用至今的富有中国文化特色的医学，它具有系统的理论体系，独特的诊疗方法和显著的临床疗效等特征，在中华民族五千年的历史长河中，始终担负着促进健康的重要角色，是中华民族长期同疾病作斗争的智慧结晶，它为中华民族的繁衍昌盛发挥着主要的作用</text>
+</view>
+
+<view class='notice-title'>
+群组公告
+</view>
+<view class='notice-content'>暂无公告</view>
+
+<view class='fabu'>  <button class="cu-btn bg-green lg" bindtap='startExam'>以阅读，开始答题</button>
+</view>

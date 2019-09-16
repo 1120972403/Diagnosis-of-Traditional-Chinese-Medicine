@@ -1,0 +1,21 @@
+.notice-title{
+  margin-top: 15rpx;
+  font-weight: bold;
+  font-size: 38rpx;
+  width: 100%;
+  text-align: center;/*文字居中显示*/
+}
+.notice-content{
+  border: 1px solid black;
+  padding: 20rpx;
+  margin: 10rpx 40rpx 20rpx;/*上 左右 下*/
+  background: #fdf4cb;
+  font-size: 32rpx;
+  line-height: 2.;
+}
+.notice-content text{
+  color: #000;
+}
+.start-exam-btn{
+  width: 90%;
+}

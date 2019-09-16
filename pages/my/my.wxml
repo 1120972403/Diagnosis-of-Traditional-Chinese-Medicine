@@ -1,0 +1,59 @@
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="/pages/my/my_detail/my_detail" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image class="head_img" src="{{userInfo.avatarUrl?userInfo.avatarUrl:'/icon/default_head_circle.png'}}">
+      </image>
+    </view>
+    <view class="weui-cell__bd text">{{userInfo.nickName}}</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class='line'></view>
+
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="/pages/my/shibie/shibie" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='/icon/shibie.png' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </view>
+    <view class="weui-cell__bd">识别记录</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class='line'></view>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="/pages/my/mydt/mydt" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='/icon/mydongtai.png' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </view>
+    <view class="weui-cell__bd">我的动态</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="/pages/my/faceback/faceback" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='/icon/mydongtai.png' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </view>
+    <view class="weui-cell__bd">意见反馈</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>
+<view class="weui-cells weui-cells_after-title" bindtap='tarto'>
+  <view url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='/icon/mydaiti.png' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </view>
+    <view class="weui-cell__bd">我的答题</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </view>
+</view>
+<view class='line'></view>
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="/pages/my/guanyu/guanyu" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__hd">
+      <image src='/icon/guanyu.png' style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </view>
+    <view class="weui-cell__bd">关于我们</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+</view>

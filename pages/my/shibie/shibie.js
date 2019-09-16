@@ -1,0 +1,7 @@
+// camera.js
+Page({
+  onReady() {
+
+  },
+
+})

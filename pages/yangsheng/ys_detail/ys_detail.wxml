@@ -1,0 +1,131 @@
+<view class="ys-tar">
+  <image class='ys-img' src="{{ys_list.picture}}"> </image>
+  <view class='ys-xinxi'>
+    <view class='ys-title'>{{ys_list.name}}</view>
+    <view class='ys-title1'>【{{ys_list.effort}}】</view>
+    <view class='ys-content'>
+      <view class='ys-lable'>{{ys_list.introduce}}</view>
+    </view>
+    <view class='ys-title1'>【食材】</view>
+    <view class='ys-back'>
+      <view class='ys-title2'>主料</view>
+      <view class='xxx'>
+        <view class='ys-zhuliao'>{{ys_list.material}}</view>
+      </view>
+      <view class='ys-title2'>辅料</view>
+      <view class='xxx'>
+        <view class='ys-zhuliao1'>{{ys_list.deterial}}</view>
+      </view>
+    </view>
+    <view class='ys-title1'>【步骤】</view>
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.onepicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.one}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 2 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.twopicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.two}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 3 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.threepicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.three}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 4 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.fourpicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.four}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 5 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.fivepicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.five}}</view>
+        </view>
+      </view>
+    </view>
+        <!-- 6 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.sixpicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.six}}</view>
+        </view>
+      </view>
+    </view>
+        <!-- 7 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.sevenpicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.seven}}</view>
+        </view>
+      </view>
+    </view>
+        <!-- 8 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.eightpicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.eight}}</view>
+        </view>
+      </view>
+    </view>
+            <!-- 9 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.ninepicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.nine}}</view>
+        </view>
+      </view>
+    </view>
+            <!-- 9 -->
+    <view class="weui-panel__bd">
+      <view url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" src="{{ys_list.tenpicture}}" />
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__desc">{{ys_list.ten}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

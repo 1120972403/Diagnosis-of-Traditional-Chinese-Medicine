@@ -1,0 +1,137 @@
+	.tower-swiper .tower-item {
+		transform: scale(calc(0.5 + var(--index) / 10));
+		margin-left: calc(var(--left) * 100rpx - 150rpx);
+		z-index: var(--index);
+	}
+.top-img {
+  text-align: center; /* 居中 */
+}
+
+.top-img image {
+  width: 50%;
+}
+
+/* 搜索 */
+
+.searchs {
+  display: flex;
+  margin: 20px;
+}
+
+.searchs-input {
+  display: flex;
+  background-color: #f1f7f3;
+  width: 80%;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.searchs-img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+.searchs-img2 {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+.searchs-txt {
+  padding: 10px;
+}
+
+
+
+.fabu-left {
+  border-radius: 20px;
+  width: 160rpx;
+  font-size: 30rpx;
+  background-color: #2e8a57;
+
+
+}
+
+.fabu text {
+  display: flex;
+  font-size: 17px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 分割 */
+
+.line {
+  border-top: 2px solid #e5e9e8;
+}
+
+.xinxi {
+  margin-bottom: 50px;
+}
+
+/* 头部 */
+
+.footer {
+  margin: 20px;
+}
+
+.toubu {
+  display: flex;
+}
+
+.toubu-left {
+  width: 20%;
+}
+
+.toubu-left image {
+  width: 50px;
+  height: 50px;
+}
+
+.toubu-right {
+  width: 80%;
+  margin-left: 5px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt-nickname {
+  font-size: 36rpx;
+  color: #207f4b;
+}
+
+.txt-time {
+  font-size: 30rpx;
+  color: gainsboro;
+}
+
+/* 内容 */
+
+.neirong-tar {
+  float: right;
+  display: flex;
+}
+
+.neirong-tar image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.neirong-tar-xixni {
+  margin: 5px;
+}
+
+.neirong-txt {
+  font-size:30rpx;
+}
+
+.center{
+  text-align: center;
+}
+
+.margin-lr-xs{
+  width: 40rpx;
+}

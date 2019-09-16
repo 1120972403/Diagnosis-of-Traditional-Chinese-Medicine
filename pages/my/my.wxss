@@ -1,0 +1,20 @@
+.head_img{
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+}
+.text{
+  font-size: 30rpx;
+  color: #207F4B;
+  margin-left: 10px;
+}
+.line{
+  height: 7px;
+  background-color: gainsboro;
+}
+.weui-cell__bd{
+  font-size: 30rpx;
+}
+.weui-cell__hd{
+  text-align: center;
+}

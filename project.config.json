@@ -1,0 +1,201 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.1",
+	"appid": "wxe022f0f6636bd30c",
+	"projectname": "%E4%B8%AD%E8%8D%AF%E8%AF%86%E7%8F%8D",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "分享新鲜事",
+					"pathName": "pages/index/fabu/fabu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "评论",
+					"pathName": "pages/index/pinglun/pinglun",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "太极",
+					"pathName": "pages/yangsheng/yangsheng",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "评论",
+					"pathName": "pages/index/pinglun/pinglun",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "识别",
+					"pathName": "pages/plant/plant",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "排行",
+					"pathName": "pages/tiaozhan/paihang/paihang",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "答题",
+					"pathName": "pages/tiaozhan/dati/dati",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "挑战",
+					"pathName": "pages/tiaozhan/tiaozhan",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "推荐识别",
+					"pathName": "pages/plant/tuijian/tuijian",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关于我们",
+					"pathName": "pages/my/guanyu/guanyu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发布内容",
+					"pathName": "pages/index/fabu/fabu",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "识别页面",
+					"pathName": "pages/my/shibie/shibie",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "识别",
+					"pathName": "pages/plant/plant",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 14,
+					"name": "答题结束",
+					"pathName": "pages/tiaozhan/dati/end/end",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "识别结果",
+					"pathName": "pages/plant/result/result",
+					"query": "name=附子",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "药膳详细",
+					"pathName": "pages/yangsheng/ys_detail/ys_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "开始答题页面",
+					"pathName": "pages/tiaozhan/dati/start/start",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "意见反馈",
+					"pathName": "pages/my/faceback/faceback",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "完成答题",
+					"pathName": "pages/tiaozhan/dati/finish/finish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "识别记录",
+					"pathName": "pages/my/shibie/shibie",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的动态",
+					"pathName": "pages/my/mydt/mydt",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
